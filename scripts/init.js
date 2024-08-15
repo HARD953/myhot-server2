@@ -8,8 +8,7 @@ import {
   addDefaultUser,
 } from "./list_scrips.js";
 
-
-
+ 
 export async function initializeDatabase() {
   try {  
     await sequelize.authenticate();;
