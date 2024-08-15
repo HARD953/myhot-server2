@@ -1,0 +1,43 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+      "title": "MYHOT API",
+      "description": "Documentation de l'API REST MYHOT",
+      "version": "1.0.0"
+    },
+    "paths": {
+      "/login": {
+        "post": {
+          "summary": "Authentification de l'utilisateur",
+          "description": "Endpoint pour authentifier un utilisateur.",
+          "requestBody": {
+            "required": true,
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "email": {
+                      "type": "string"
+                    },
+                    "password": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "responses": {
+            "200": {
+              "description": "Succès de l'authentification"
+            },
+            "401": {
+              "description": "Échec de l'authentification"
+            }
+          }
+        }
+      }
+    }
+  }
+  

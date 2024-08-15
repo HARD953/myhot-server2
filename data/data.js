@@ -1,0 +1,646 @@
+
+export const default_user_data = {
+  nom:"myhot",
+  prenom:"myhot",
+  email: "myhot@gmail.com",
+  telephone: "1234567890",
+  pays: "côte divoire",
+  ville: "Abidjan",
+  commune: "Plateau",
+  date_naissance :"1990-01-01" ,
+  is_client: true,
+  is_gerant: true,
+  password: "myhot",
+};
+
+
+export const ville_civ_data = [
+  {
+    city: "Abidjan",
+    lat: "5.3167",
+    lng: "-4.0333",
+    country: "Côte d'Ivoire",
+    iso2: "CI",
+    admin_name: "Abidjan",
+    capital: "primary",
+    population: "4980000",
+    population_proper: "4980000",
+  },
+  {
+    city: "Yopougon",
+    lat: "5.3167",
+    lng: "-4.0667",
+    country: "Côte d'Ivoire",
+    iso2: "CI",
+    admin_name: "Abidjan",
+    capital: "",
+    population: "1571065",
+    population_proper: "1571065",
+  },
+  {
+    city: "Cocody",
+    lat: "5.3500",
+    lng: "-3.9667",
+    country: "Côte d'Ivoire",
+    iso2: "CI",
+    admin_name: "Abidjan",
+    capital: "",
+    population: "692583",
+    population_proper: "692583",
+  },
+  {
+    city: "Bouaké",
+    lat: "7.6833",
+    lng: "-5.0167",
+    country: "Côte d'Ivoire",
+    iso2: "CI",
+    admin_name: "Vallée du Bandama",
+    capital: "admin",
+    population: "659233",
+    population_proper: "659233",
+  },
+  {
+    city: "Port-Bouët",
+    lat: "5.2667",
+    lng: "-3.9000",
+    country: "Côte d'Ivoire",
+    iso2: "CI",
+    admin_name: "Abidjan",
+    capital: "",
+    population: "618795",
+    population_proper: "618795",
+  },
+  {
+    city: "Daloa",
+    lat: "6.8833",
+    lng: "-6.4500",
+    country: "Côte d'Ivoire",
+    iso2: "CI",
+    admin_name: "Sassandra-Marahoué",
+    capital: "admin",
+    population: "421871",
+    population_proper: "421871",
+  },
+  {
+    city: "Koumassi",
+    lat: "5.3000",
+    lng: "-3.9500",
+    country: "Côte d'Ivoire",
+    iso2: "CI",
+    admin_name: "Abidjan",
+    capital: "",
+    population: "412282",
+    population_proper: "412282",
+  },
+  {
+    city: "San-Pédro",
+    lat: "4.7500",
+    lng: "-6.6333",
+    country: "Côte d'Ivoire",
+    iso2: "CI",
+    admin_name: "Bas-Sassandra",
+    capital: "admin",
+    population: "390654",
+    population_proper: "390654",
+  },
+  {
+    city: "Attiecoubé",
+    lat: "5.3333",
+    lng: "-4.0333",
+    country: "Côte d'Ivoire",
+    iso2: "CI",
+    admin_name: "Abidjan",
+    capital: "",
+    population: "313135",
+    population_proper: "313135",
+  },
+  {
+    city: "Korhogo",
+    lat: "9.4167",
+    lng: "-5.6167",
+    country: "Côte d'Ivoire",
+    iso2: "CI",
+    admin_name: "Savanes",
+    capital: "admin",
+    population: "286071",
+    population_proper: "286071",
+  },
+  {
+    city: "Gagnoa",
+    lat: "6.1333",
+    lng: "-5.9333",
+    country: "Côte d'Ivoire",
+    iso2: "CI",
+    admin_name: "Gôh-Djiboua",
+    capital: "admin",
+    population: "277044",
+    population_proper: "277044",
+  },
+  {
+    city: "Soubré",
+    lat: "5.7833",
+    lng: "-6.6000",
+    country: "Côte d'Ivoire",
+    iso2: "CI",
+    admin_name: "Bas-Sassandra",
+    capital: "minor",
+    population: "272773",
+    population_proper: "272773",
+  },
+  {
+    city: "Oumé",
+    lat: "6.3833",
+    lng: "-5.4167",
+    country: "Côte d'Ivoire",
+    iso2: "CI",
+    admin_name: "Gôh-Djiboua",
+    capital: "minor",
+    population: "260786",
+    population_proper: "260786",
+  },
+  {
+    city: "Man",
+    lat: "7.4000",
+    lng: "-7.5500",
+    country: "Côte d'Ivoire",
+    iso2: "CI",
+    admin_name: "Montagnes",
+    capital: "admin",
+    population: "241969",
+    population_proper: "241969",
+  },
+  {
+    city: "Duekoué",
+    lat: "6.7333",
+    lng: "-7.3500",
+    country: "Côte d'Ivoire",
+    iso2: "CI",
+    admin_name: "Montagnes",
+    capital: "minor",
+    population: "220953",
+    population_proper: "220953",
+  },
+  {
+    city: "Bingerville",
+    lat: "5.3500",
+    lng: "-3.9000",
+    country: "Côte d'Ivoire",
+    iso2: "CI",
+    admin_name: "Abidjan",
+    capital: "minor",
+    population: "204656",
+    population_proper: "204656",
+  },
+  {
+    city: "Divo",
+    lat: "5.8333",
+    lng: "-5.3667",
+    country: "Côte d'Ivoire",
+    iso2: "CI",
+    admin_name: "Gôh-Djiboua",
+    capital: "minor",
+    population: "179455",
+    population_proper: "179455",
+  },
+  {
+    city: "Abengourou",
+    lat: "6.7333",
+    lng: "-3.4833",
+    country: "Côte d'Ivoire",
+    iso2: "CI",
+    admin_name: "Comoé",
+    capital: "admin",
+    population: "164424",
+    population_proper: "164424",
+  },
+  {
+    city: "Ferkessédougou",
+    lat: "9.5833",
+    lng: "-5.2000",
+    country: "Côte d'Ivoire",
+    iso2: "CI",
+    admin_name: "Savanes",
+    capital: "minor",
+    population: "160267",
+    population_proper: "160267",
+  },
+  {
+    city: "Adzopé",
+    lat: "6.1667",
+    lng: "-3.9833",
+    country: "Côte d'Ivoire",
+    iso2: "CI",
+    admin_name: "Lagunes",
+    capital: "minor",
+    population: "156488",
+    population_proper: "156488",
+  },
+  {
+    city: "Bondoukou",
+    lat: "8.0333",
+    lng: "-2.8000",
+    country: "Côte d'Ivoire",
+    iso2: "CI",
+    admin_name: "Zanzan",
+    capital: "admin",
+    population: "141568",
+    population_proper: "141568",
+  },
+  {
+    city: "Dabou",
+    lat: "5.3167",
+    lng: "-4.3833",
+    country: "Côte d'Ivoire",
+    iso2: "CI",
+    admin_name: "Lagunes",
+    capital: "admin",
+    population: "138083",
+    population_proper: "138083",
+  },
+  {
+    city: "Sinfra",
+    lat: "6.8500",
+    lng: "-5.9167",
+    country: "Côte d'Ivoire",
+    iso2: "CI",
+    admin_name: "Sassandra-Marahoué",
+    capital: "minor",
+    population: "137210",
+    population_proper: "137210",
+  },
+  {
+    city: "Agboville",
+    lat: "5.9333",
+    lng: "-4.2167",
+    country: "Côte d'Ivoire",
+    iso2: "CI",
+    admin_name: "Lagunes",
+    capital: "minor",
+    population: "135082",
+    population_proper: "135082",
+  },
+  {
+    city: "Grand-Bassam",
+    lat: "5.2000",
+    lng: "-3.7333",
+    country: "Côte d'Ivoire",
+    iso2: "CI",
+    admin_name: "Comoé",
+    capital: "minor",
+    population: "124567",
+    population_proper: "124567",
+  },
+  {
+    city: "Daoukro",
+    lat: "7.0500",
+    lng: "-3.9667",
+    country: "Côte d'Ivoire",
+    iso2: "CI",
+    admin_name: "Lacs",
+    capital: "minor",
+    population: "101136",
+    population_proper: "101136",
+  },
+  {
+    city: "Aboisso",
+    lat: "5.4667",
+    lng: "-3.2000",
+    country: "Côte d'Ivoire",
+    iso2: "CI",
+    admin_name: "Comoé",
+    capital: "minor",
+    population: "100903",
+    population_proper: "100903",
+  },
+  {
+    city: "Odienné",
+    lat: "9.5000",
+    lng: "-7.5667",
+    country: "Côte d'Ivoire",
+    iso2: "CI",
+    admin_name: "Denguélé",
+    capital: "admin",
+    population: "86279",
+    population_proper: "86279",
+  },
+  {
+    city: "Dimbokro",
+    lat: "6.6500",
+    lng: "-4.7000",
+    country: "Côte d'Ivoire",
+    iso2: "CI",
+    admin_name: "Lacs",
+    capital: "admin",
+    population: "70198",
+    population_proper: "70198",
+  },
+  {
+    city: "Séguéla",
+    lat: "7.9667",
+    lng: "-6.6667",
+    country: "Côte d'Ivoire",
+    iso2: "CI",
+    admin_name: "Woroba",
+    capital: "admin",
+    population: "67240",
+    population_proper: "67240",
+  },
+  {
+    city: "Yamoussoukro",
+    lat: "6.8161",
+    lng: "-5.2742",
+    country: "Côte d'Ivoire",
+    iso2: "CI",
+    admin_name: "Yamoussoukro",
+    capital: "primary",
+    population: "37253",
+    population_proper: "37253",
+  },
+  {
+    city: "Bangolo",
+    lat: "7.0123",
+    lng: "-7.4864",
+    country: "Côte d'Ivoire",
+    iso2: "CI",
+    admin_name: "Montagnes",
+    capital: "admin",
+    population: "",
+    population_proper: "",
+  },
+  {
+    city: "Anyama",
+    lat: "5.4946",
+    lng: "-4.0518",
+    country: "Côte d'Ivoire",
+    iso2: "CI",
+    admin_name: "Abidjan",
+    capital: "minor",
+    population: "",
+    population_proper: "",
+  },
+  {
+    city: "Méagui",
+    lat: "5.4048",
+    lng: "-6.5584",
+    country: "Côte d'Ivoire",
+    iso2: "CI",
+    admin_name: "Bas-Sassandra",
+    capital: "minor",
+    population: "",
+    population_proper: "",
+  },
+];
+
+
+export const regions_civ_data = [
+  "Lagunes",
+  "Lacs",
+  "Haut-Sassandra",
+  "Montagnes",
+  "Savanes",
+  "Bas-Sassandra",
+  "Vallée du Bandama",
+  "Worodougou",
+  "Sassandra-Marahoué",
+  "Zanzan",
+  "Denguélé",
+  "Woroba",
+  "Comoé",
+  "Abidjan",
+  "Gôh-Djiboua",
+  "Fromager",
+  "N’zi-Comoé",
+  "Dix-Huit Montagnes",
+];
+
+
+export const pays_data = [
+  "Algérie",
+  "Angola",
+  "Bénin",
+  "Botswana",
+  "Burkina Faso",
+  "Burundi",
+  "Cabo Verde",
+  "Cameroun",
+  "République Centrafricaine",
+  "Comores",
+  "Congo-Brazzaville",
+  "Congo-Kinshasa",
+  "Djibouti",
+  "Égypte",
+  "Guinée équatoriale",
+  "Érythrée",
+  "Eswatini",
+  "Éthiopie",
+  "Gabon",
+  "Gambie",
+  "Ghana",
+  "Guinée",
+  "Guinée-Bissau",
+  "Côte d'Ivoire",
+  "Kenya",
+  "Lesotho",
+  "Libéria",
+  "Libye",
+  "Madagascar",
+  "Malawi",
+  "Mali",
+  "Maurice",
+  "Mauritanie",
+  "Maroc",
+  "Mozambique",
+  "Namibie",
+  "Niger",
+  "Nigeria",
+  "Ouganda",
+  "Rwanda",
+  "Sao Tomé-et-Principe",
+  "Sénégal",
+  "Seychelles",
+  "Sierra Leone",
+  "Somalie",
+  "Soudan",
+  "Soudan du Sud",
+  "Tanzanie",
+  "Tchad",
+  "Togo",
+  "Tunisie",
+  "Zambie",
+  "Zimbabwe",
+];
+
+
+
+export const hotel_chambre_type_data = [
+  {
+    type: "Chambre Standard",
+    description:
+      "Chambre basique avec les équipements essentiels. Peut inclure un lit double ou deux lits simples.",
+  },
+  {
+    type: "Chambre Supérieure",
+    description:
+      "Plus spacieuse que la chambre standard, souvent avec des équipements améliorés et une meilleure vue.",
+  },
+  {
+    type: "Chambre Deluxe",
+    description:
+      "Chambre haut de gamme offrant plus de confort et de luxe, souvent avec des équipements supplémentaires comme une meilleure literie, un mobilier plus élégant, et parfois un balcon.",
+  },
+  {
+    type: "Suite",
+    description:
+      "Chambres plus grandes avec plusieurs pièces, comme un salon séparé et une chambre à coucher. Idéale pour les séjours prolongés ou les familles.",
+  },
+  {
+    type: "Suite Junior",
+    description:
+      "Une petite suite avec un espace de vie séparé mais sans pièces séparées comme une suite complète.",
+  },
+  {
+    type: "Chambre Exécutive",
+    description:
+      "Destinée aux voyageurs d'affaires, souvent avec un bureau de travail, des équipements de communication supplémentaires, et un accès aux salons d'affaires.",
+  },
+  {
+    type: "Chambre avec Lit King Size",
+    description:
+      "Chambre avec un grand lit king size, offrant plus d'espace pour dormir.",
+  },
+  {
+    type: "Chambre avec Lit Queen Size",
+    description:
+      "Chambre avec un lit queen size, offrant un confort supplémentaire par rapport aux lits doubles standard.",
+  },
+  {
+    type: "Chambre Familiale",
+    description:
+      "Conçue pour accueillir des familles, généralement avec des lits supplémentaires ou des chambres communicantes.",
+  },
+  {
+    type: "Chambre Accessible",
+    description:
+      "Conçue pour les personnes à mobilité réduite, avec des équipements et des aménagements spéciaux pour faciliter l'accès.",
+  },
+  {
+    type: "Chambre avec Vue",
+    description:
+      "Offre une vue particulière, comme sur la mer, la ville, ou les montagnes.",
+  },
+  {
+    type: "Chambre pour Non-Fumeurs",
+    description: "Chambre spécifiquement désignée pour les non-fumeurs.",
+  },
+  {
+    type: "Chambre avec Balcon",
+    description:
+      "Chambre équipée d'un balcon privé, souvent avec des sièges extérieurs.",
+  },
+  {
+    type: "Chambre avec Jacuzzi / Baignoire Spa",
+    description:
+      "Chambre avec une baignoire spa ou un jacuzzi privé, offrant un confort et un luxe supplémentaires.",
+  },
+  {
+    type: "Chambre Thématique",
+    description:
+      "Chambre décorée selon un thème spécifique, comme un style particulier ou inspiré par une destination.",
+  },
+];
+
+
+export const type_etabl_data = ["Hôtel", "Résidence Meublée"];
+
+
+// const type_etablissement_data = {
+//   hôtels: [
+//     {
+//       type: "Hôtel",
+//       description:
+//         "Établissement offrant des chambres et des services aux voyageurs, variant en confort et en prix.",
+//     },
+//     {
+//       type: "Hôtel de Luxe",
+//       description:
+//         "Établissement haut de gamme avec des services et des équipements de premier ordre, comme des suites luxueuses, un service de concierge, des restaurants gastronomiques, et des spas.",
+//     },
+//     {
+//       type: "Hôtel Boutique",
+//       description:
+//         "Petit hôtel avec un design unique et souvent un thème distinctif, mettant l'accent sur une expérience personnalisée et une atmosphère intime.",
+//     },
+//     {
+//       type: "Hôtel de Charme",
+//       description:
+//         "Hôtel avec une ambiance accueillante et un décor raffiné, souvent dans des bâtiments historiques ou pittoresques.",
+//     },
+//     {
+//       type: "Appart'hôtel",
+//       description:
+//         "Combinaison d'un hôtel et d'un appartement, offrant des services hôteliers tout en fournissant des installations de cuisine et des espaces de vie.",
+//     },
+//     {
+//       type: "Auberge de Jeunesse",
+//       description:
+//         "Établissement économique offrant des dortoirs ou des chambres privées, souvent destiné aux jeunes voyageurs.",
+//     },
+//     {
+//       type: "Camping",
+//       description:
+//         "Logement en plein air sous tentes ou dans des caravanes, avec des options allant du camping rustique au camping de luxe.",
+//     },
+//   ],
+//   résidences: [
+//     {
+//       type: "Résidence Meublée",
+//       description:
+//         "Logement équipé de meubles et d'appareils électroménagers pour des séjours à moyen ou long terme, offrant une certaine autonomie avec des équipements de cuisine et un salon.",
+//     },
+//     {
+//       type: "Résidence Étudiante",
+//       description:
+//         "Logement destiné aux étudiants, souvent à proximité des établissements d'enseignement, avec des chambres individuelles ou partagées et des espaces communs.",
+//     },
+//     {
+//       type: "Résidence de Tourisme",
+//       description:
+//         "Logement temporaire destiné aux vacanciers, souvent situé dans des destinations touristiques avec des équipements tels que des cuisines et des espaces de divertissement.",
+//     },
+//     {
+//       type: "Résidence de Luxe",
+//       description:
+//         "Logement haut de gamme offrant des équipements et des services exclusifs, tels que des piscines privées et des services de conciergerie, souvent situé dans des emplacements prestigieux.",
+//     },
+//   ],
+//   autres: [
+//     {
+//       type: "Chambre d'Hôte",
+//       description:
+//         "Logement dans la maison d'un particulier, offrant une expérience intime avec le petit-déjeuner et souvent des conseils locaux.",
+//     },
+//     {
+//       type: "Gîte",
+//       description:
+//         "Logement indépendant souvent situé à la campagne, avec des installations pour l'autonomie des occupants, comme une cuisine complète.",
+//     },
+//     {
+//       type: "Maison d'Hôte",
+//       description:
+//         "Similaire à une chambre d'hôte, mais peut offrir plusieurs chambres et des repas en plus du logement.",
+//     },
+//     {
+//       type: "Villa",
+//       description:
+//         "Maison de vacances souvent luxueuse, avec des équipements privés comme des piscines et des espaces extérieurs.",
+//     },
+//     {
+//       type: "Résidence Hôtelière",
+//       description:
+//         "Établissement offrant un hébergement similaire à un hôtel, mais avec des séjours plus longs et des services comme des cuisines entièrement équipées.",
+//     },
+//   ],
+// };
+
+
+  
