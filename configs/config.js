@@ -4,7 +4,6 @@
     database: process.env.POSTGRES_DB,
     host: process.env.POSTGRES_HOST,
     port: process.env.POSTGRES_PORT,
-    endpointId: process.env.ENDPOINT_ID,
     dialect: "postgres",
     url: process.env.URL,
     jwt: {
